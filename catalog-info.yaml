@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: events_api
+  tags:
+    - java
+spec:
+  type: openapi
+  lifecycle: production
+  owner: events-team
+  definition:
+    $text: ./events-spec.json
