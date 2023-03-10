@@ -8,5 +8,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: events-team
+  system: Events
   definition:
     $text: ./events-spec.json
