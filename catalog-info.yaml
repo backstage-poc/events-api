@@ -4,6 +4,8 @@ metadata:
   name: events_api
   tags:
     - java
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: openapi
   lifecycle: production
